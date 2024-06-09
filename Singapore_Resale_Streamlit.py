@@ -10,7 +10,7 @@ from streamlit_option_menu import option_menu
 import pickle
 from PIL import Image
 
-#assigning values to the respective fields
+#assigning values to the respective fields based on values encoded
 def town_mapping(town_map):
     if town_map == 'ANG MO KIO':
         town_1 = int(0)
